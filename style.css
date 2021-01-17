@@ -1,0 +1,146 @@
+﻿
+
+/*Here I have defined center, for use in my images. */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} 
+
+#para1 {
+text-align:center;
+}
+
+#para2 {
+text-align:left;
+}
+
+#para3 {
+    text-align:right;
+}
+
+/*Here i've changed the mail link to green at the bottom of the page*/
+a:link {color:green;
+}
+
+/* Here I have applied roman numerals to my ordered list on the homepage. */
+ol.a {
+list-style-type: upper-roman;
+border: 1px solid black;
+
+}
+
+html {
+    font-family: Times New Roman; Times, serif;
+    line-height: 150%;
+    border: 2px solid black;
+
+}
+
+footer {
+       Background-color: #6495ED;
+       border: 2px solid black;
+       }
+
+header {
+     background-color: #6495ED;
+     font-size: 30px;
+     text-align: center;
+     font-weight: bolder;
+     font-variant: small-caps;
+     
+       }
+
+  body {
+    padding:0;
+    margin:0;
+       }
+
+.topnav {
+  background-color: #663399; /*Purple*/
+  overflow: hidden;
+  }
+
+/* Here I have styled the links inside of the navigation bar */
+.topnav a {
+  float: left;
+  color:   #87CEFA;    /*light blue*/
+  text-align: center;
+  padding: 30px 32px;
+   font-size: 25px;
+   font-variant: small-caps;
+ }
+
+/* Here I have changed the colour of links on hover in the navbar */
+.topnav a:hover {
+  background-color: #87CEFA;
+  color: #000066;
+}
+
+/* Here I have added a colour to the active/current page */
+.topnav a.active {
+  background-color: #C8C8C8;
+  color: #000066;
+}
+
+body {
+    Background-color: #C8C8C8;
+    text-align: left
+     }
+
+h1 {
+    color: #000066;
+    font-size: 28px;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+h2 {
+    color: #000066;
+    font-size: 24px;
+    font-variant: small-caps;
+    text-align: left;
+    text-decoration: underline;
+           }
+
+h3 {color: #000066;
+    font-size: 20px;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4 {color: #000066;
+    font-size: 20px;
+    font-variant: small-caps;
+    text-decoration: underline;
+    }
+
+   a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 14px 22px;
+}
+
+a:hover {
+  background-color: #C8C8C8;
+  color: #000066;
+}
+
+.previous {
+  background-color: #663399;
+  color: #87CEFA;
+  float: left; '
+}
+
+.next {
+  background-color: #663399;
+  color: #87CEFA;
+  float: right; '
+}
+
+.round {
+  border-radius: 50%;
+}
